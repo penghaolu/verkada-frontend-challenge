@@ -1,0 +1,10 @@
+.tile {
+  width: 75px;
+  height: 75px;
+}
+#wall {
+  background-color: #808080;
+}
+#floor {
+  background-color: #f2f2f2;
+}
