@@ -18,7 +18,7 @@ function App() {
     for (const key of Object.keys(parsedConfig)) {
       document
         .getElementById(parsedConfig[key])
-        .appendChild(document.getElementById(`cam${key}`));
+        .appendChild(document.getElementById(key));
     }
   });
 
