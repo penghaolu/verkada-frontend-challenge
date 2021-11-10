@@ -1,0 +1,14 @@
+.default {
+  height: 30px;
+  width: 30px;
+  background-color: #06aff8;
+  border-radius: 50%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.floor + .default {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

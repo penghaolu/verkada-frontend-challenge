@@ -1,3 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.app-wrapper {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+.map-wrapper {
+  /* background-color: grey; */
+  justify-content: center;
+  margin: 10px;
+}
 .row-wrapper {
   display: flex;
+  justify-content: center;
+}
+.camera-wrapper {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid #15161a;
+  border-radius: 25px;
+  margin: 10px;
+  align-self: center;
+}
+.save-button {
+  padding: 5px 15px 5px 15px;
+  border: 1px solid #15161a;
+  background-color: #cdeffe;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.over {
+  background-color: lightgreen !important;
+}
+.maxed {
+  background-color: lightpink !important;
 }

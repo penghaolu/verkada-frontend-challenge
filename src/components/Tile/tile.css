@@ -1,10 +1,12 @@
-.tile {
-  width: 75px;
-  height: 75px;
+.wall {
+  width: 50px;
+  height: 50px;
+  background-color: #15161a;
+  border: 1px solid #15161a;
 }
-#wall {
-  background-color: #808080;
-}
-#floor {
-  background-color: #f2f2f2;
+.floor {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #15161a;
+  position: relative;
 }
